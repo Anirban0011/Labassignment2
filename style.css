@@ -1,59 +1,44 @@
-* {
-        background-color: #F5FFFA;
-        color: #4B0082;
-        font-size: 14;
-    }
-
-    body {
-
-        margin-top: 3em;
-        margin-left: 10%;
-        font-family: Calibri, Californian FB, Sans-serif;
-        width: 80%;
-    }
-
-    h1 {
-        color: rgb(65, 105, 225);
-        font-size: 2.2em;
-        text-transform: capitalize;
-        letter-spacing: 3px;
-        margin-bottom: 0px;
-    }
-
-    h2 {
-
-        color: royalblue;
-        margin-top: 1.5em;
-        ;
-        margin-bottom: 0px;
-    }
-
-    h3 {
-        font-style: italic;
-        text-transform: uppercase;
-        margin-bottom: 0px;
-    }
-
-    p {
-        margin-left: 4%;
-
-    }
-
-    ul {
-        margin-left: 2%;
- 
-    }
-
-    p,
-    ul {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    hr {
-        background-color: #4169E1;
-        color: #000080;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        height: 4px;
-    }
+h1{
+    background-color: rgb(255, 0, 76);
+    color: white;
+    top:0;
+    left:45%;
+    display: inline-block;
+    position: fixed;
+}
+.q1{
+    width: 320px;
+    padding: 10px;
+    border: 8px solid green;
+    margin: 0;
+    top:0;
+    left:0;
+    position: fixed;
+}
+.q2{
+    width: 320px;
+    padding: 10px;
+    border: 8px solid cyan;
+    margin: 0;
+    top: 0;
+    right:0;
+    position: fixed;
+}
+.q3{
+    width: 320px;
+    padding: 10px;
+    border: 8px solid magenta;
+    margin: 0;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.q4{
+    width: 320px;
+    padding: 10px;
+    border: 8px solid blue;
+    margin: 0;
+    position:fixed;
+    bottom:0;
+    right:0;
+}
